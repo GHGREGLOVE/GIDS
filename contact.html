@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Greg Indesign Data Systems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
+            <div class="brand">Greg <span>Indesign</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img class="bg" src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80" alt="Contact hero">
+        <div class="container hero-inner">
+            <h1>Get In Touch</h1>
+            <p class="muted">Tell us about your project and we'll get back within one business day.</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Service Required</label>
+                <select id="service" name="service" class="form-select">
+                    <option value="hardware">Hardware</option>
+                    <option value="networking">Networking</option>
+                    <option value="branding">Branding & Design</option>
+                    <option value="installation">Installation</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="How can we help?"></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Greg Indesign Data Systems &copy; 2026</p>
+    </footer>
+</body>
+</html>
